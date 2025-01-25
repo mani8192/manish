@@ -1,0 +1,25 @@
+p{
+line-height: 50px;
+color:rgb(5, 230, 13)
+}
+
+
+h1{
+    color:red;
+    text-transform: capitalize;
+}
+
+h2{
+    color:green;
+    text-transform: lowercase;
+}
+
+h3{
+    color:blue;
+    text-transform: uppercase;
+}
+
+h4{
+    color:black;
+    text-transform: none;
+}

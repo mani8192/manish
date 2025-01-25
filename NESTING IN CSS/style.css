@@ -1,0 +1,49 @@
+.container{
+    h1{
+        color:green;
+        font-size: 40px;
+    }
+    p{
+        color: red;
+        font-size: large;
+    }
+}
+
+
+h3{
+    font-size: 40px;
+    color: red;
+    border-block:4px solid black;
+    writing-mode:vertical-lr;
+    animation: changer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes changer{
+    0%{
+        color: red; 
+    }
+    50%{
+        color:azure;
+        background-color: blue;
+    }
+}
+
+
+h3:hover{
+    color:white;
+    background-color: blue;
+}
+
+
+
+.box{
+
+    height: 200px;
+    width: 200px;
+    clip-path: ellipse(130px 140px at 10% 20%);
+    background-color: red;
+}

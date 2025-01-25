@@ -1,0 +1,32 @@
+h1{
+    font-size: 40px;
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loder{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    border-top: 20px;
+    border: 20px black solid;
+    border-top: 20px solid greenyellow;
+    border-radius: 50%;
+    /* animation function */
+    animation: loder;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loder{
+    from{transform: rotate(0deg);
+    }
+    to{transform: rotate(360deg);
+    }
+
+}
+

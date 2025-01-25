@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:white;
+    text-decoration: none;
+
+    
+}
+
+#navbar {
+    height: 60px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#logo {
+    font-size:25px;
+    color: rgba(247, 204, 9, 0.402);
+
+}
+
+#input{
+    color:black;
+}
+
+
+#button{
+    background-color:rgb(239, 245, 66);
+    border-radius: 5px;
+    width: 70px;
+}
+
+a{
+    margin-right: 200px;
+}
+
+.box{
+    margin: 20px;
+    color: black;
+}

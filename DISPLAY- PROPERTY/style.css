@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+h1{
+    background-color: coral;
+    font-style: inherit;
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.box1{
+    border-color: black;
+    background-color: brown;
+    margin:20px;
+    padding:30px;
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.box2{
+    border-color: black;
+    background-color: green;
+    margin:20px;
+    padding:30px;
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.box3{
+    border-color: black;
+    background-color: blue;
+    margin:20px;
+    padding:30px;
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+}

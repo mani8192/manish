@@ -1,0 +1,155 @@
+div.transform{
+height: 150px;
+width: 150px;
+border: 3px black solid;
+background-color: rgb(23, 234, 19);
+display: inline-block;
+position: relative;
+top: 100px;
+left: 100px;
+transform: rotate(45deg);
+z-index: 1/2;
+transition-duration: 3s;
+}
+
+.transform:hover{
+    transform: rotate(90deg);
+    background-color: aqua;
+    
+}
+
+div.transform2{
+    height: 150px;
+    width: 150px;
+    border: 3px black solid;
+    background-color: royalblue;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform: rotate(45deg);
+    }
+
+div.transform3{
+    height: 150px;
+    width: 150px;
+    border: 3px black solid;
+    background-color:rgb(243, 23, 162);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform: rotate(90deg);
+ }
+
+ div.transform4{
+    height: 150px;
+    width: 150px;
+    border: 3px black solid;
+    background-color:rgb(238, 110, 6);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform: rotate(180deg);
+ }
+
+ div.transform5{
+    height: 150px;
+    width: 150px;
+    border: 3px black solid;
+    background-color:rgb(9, 218, 124);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform: rotate(360deg);
+ }
+
+/* transform-scale ---- */
+
+
+#scale{
+    /* text-align: center; */
+    font-size:35px;
+    position: relative;
+    top: 150px;
+    /* left: 100px; */
+}
+
+.scale1{
+    height: 80px;
+    width: 80px;
+    border: 3px black solid;
+    background-color:rgb(243, 23, 162);
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 120px;
+    transform: scale(0.5);
+}
+
+
+
+.scale2{
+    height: 80px;
+    width: 80px;
+    border: 3px black solid;
+    background-color:rgb(154, 5, 234);
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 120px;
+    transform: scale(1);
+}
+
+
+
+.scale3{
+    height: 80px;
+    width: 80px;
+    border: 3px black solid;
+    background-color:rgb(23, 243, 63);
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 120px;
+    transform: scale(1,2);
+}
+
+
+/* transform-translate */
+
+.translate{
+    font-size: 35px;
+    position: relative;
+    top: 270px;
+}
+
+.skew{
+    font-size: 35px;
+    position: relative;
+    top: 270px;
+}
+
+#skew{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    background-color: rgb(9, 218, 124);
+    position: relative;
+    top: 300px;
+    left: 50px;
+    border-radius: 40px;
+    transform: skew(20deg);
+    background: url(woooo.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+
+#skew:hover{
+    transform: rotate(2deg);
+    
+    transform-origin: right;
+}

@@ -1,0 +1,155 @@
+.container{
+    /* background-color: whitesmoke; */
+    height: 60px;
+    width: 99%;
+    position: fixed;
+    top: 5px;
+    border-radius: 10px;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: rgb(14, 60, 14);
+}
+
+.spacer{
+    display: inline-block;
+    width: 600px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    margin-right: 50px;
+    position: relative;
+    left: 50px;
+    top: 10px
+}
+
+.button{
+    height: 30px;
+    color:beige;
+    font-weight: bold;
+    border: 1px black solid;
+    background-color: rgb(70, 190, 70);
+    position: relative;
+    left: 50px;
+    top: 10px;
+    border-radius: 10px;
+}
+
+/* header--section */
+
+.header {
+    margin-top: 140px;
+}
+
+.header > * {
+    display: inline-block; 
+    /* margin: 10px;  */
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* 
+.spacer2{
+    position: relative;
+    left: 50%;
+} */
+
+.button1{
+    height: 30px;
+    color:black;
+    font-weight: bold;
+    border: 1px black solid;
+    background-color: rgb(192, 237, 250);
+    border-radius: 10px;
+}
+
+.button2{
+    height: 30px;
+    margin-left: 30px;
+    color:black;
+    font-weight: bold;
+    border: 1px black solid;
+    background-color: rgb(192, 237, 250);
+    border-radius: 10px;
+}
+
+
+
+.div1{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    display: inline-block;
+    background:url(gobii.png);
+    border: 1px black solid;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.div2{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    background:url(tamato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+
+.div3{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    background:url(gaajer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+
+.div4{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    background:url(1234.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+
+p{
+    text-align: justify;
+}

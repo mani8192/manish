@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+div{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    padding:20px;
+    background-color:green;
+    display: inline-block;
+    background: url(anime.jpg)center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black 15px solid;
+    border-radius: 20px;
+}

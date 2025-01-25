@@ -1,0 +1,17 @@
+.box1{
+    height: 60px;
+    width:250px;
+    background-color: red;
+    border: black 2px solid;
+    /* css logical propeties (inline and block)  */
+    
+    /* block */
+    border-block: rgb(39, 234, 0) 5px solid;
+    /* inline */
+    border-inline: rgb(14, 2, 250) 5px solid;
+}
+
+p{
+    letter-spacing: 1px;
+    text-align: justify;
+}

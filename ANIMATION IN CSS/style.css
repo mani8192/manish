@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    border-radius: 50%;
+    background-color: aqua;
+    /* animation concepts */
+    animation: move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes move{
+    from{transform: translate(0px);
+        background-color: red;
+    }
+    20% { background-color:green;
+    }
+    50%{ background-color: yellow;
+    }
+    80%{ background-color: blue;
+    }
+    100%{ background-color: aqua;
+        border-radius: 10px;
+        background: url(animation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    to{transform: translate(90vw);
+    }
+}
